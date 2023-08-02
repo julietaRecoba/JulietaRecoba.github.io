@@ -1,0 +1,161 @@
+
+
+.name {
+font-family: Arial, Helvetica, sans-serif;
+font-size:40px;
+font-weight: 700;
+letter-spacing: 6px;
+font-variant:small-caps;
+color:#000000;
+padding: 1%;
+list-style: none;
+}
+.navmenu{
+   transition: all 0.3s;
+   list-style: none;
+}
+.navmenu li a{
+   text-decoration: none;
+   color: #000000;
+}
+.navmenu li{
+padding: 10px;
+display: inline-block;
+}   
+
+header{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 70px;
+   padding: 20px 20px;
+   font-family: 'Jost', sans-serif;
+   font-size: 20px;
+   transition: 0.5s;
+   position: relative;
+}
+
+#mi:hover{
+   background-color:rgb(124, 252, 239) ;
+   transform: scale(1.1);
+}
+#bienv:hover {
+   background-color: rgb(73, 232, 195);
+   transform: scale(1.1);
+}
+#proy:hover {
+   background-color: #4ed2e3;
+   transform: scale(1.1);
+ }
+table{
+   margin: 20px 30px;
+   display: flex;
+   font-family: 'Jost', sans-serif;
+   font-size: 20px;
+   width: 100%;
+   
+}
+table h1{
+   text-indent: 10%;
+   line-height: 60%;
+   color:#4ed2e3
+}
+
+
+.col1 h1{
+   font-size: 60px;
+   justify-self: unset;
+}
+.col1 h2{
+  max-width: 80%;
+   font-size: 30px;
+}
+
+#proyectos{
+   font-size: 40px;
+   color: #4ed2e3;
+   font-family: 'Jost', sans-serif;
+   padding-left: 20px;
+}
+
+
+.t2{
+   margin: 20px 30px;
+   display: flex;
+   font-family: 'Jost', sans-serif;
+   font-size: 20px;
+   align-items: center;
+   
+   
+}
+
+.t2 p{
+   padding-right: 100px;
+   justify-content: space-around;
+   padding-left: 50px;
+   max-width: 60%;
+   padding-bottom: 30%;
+
+}
+
+.t2 img{
+   border-radius: 7px;
+   margin-bottom: 100px;
+   
+}
+
+.t2 #img2{
+   padding-right: 100px;
+}
+
+#camino{
+   font-family: 'Jost', sans-serif;
+   color: #4ed2e3;
+   font-size: 40px;
+   padding-left: 20px;
+}
+ div {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   font-family: 'Jost', sans-serif;
+
+ }
+   .cuerpo{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   }
+
+div p{
+   max-width: 40%;
+   font-size: 20px;
+}
+
+div h2{
+
+font-family: 'Jost', sans-serif;
+   color: #4ed2e3;
+   font-size: 40px;
+   padding-left: 20px;
+   margin: 20px;
+}
+div a{
+   text-decoration: none;
+   color: rgb(6, 101, 123);
+   font-size: 20px;
+   padding: 10px;
+}
+header.abajo{
+   background-color: #000000;
+
+
+
+}
+
+header.abajo div h1{
+   color: aliceblue;
+}
+header.abajo ul a {
+   color: aliceblue;
+}

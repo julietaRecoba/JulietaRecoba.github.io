@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julieta Recoba</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Slabo+27px&display=swap" rel="stylesheet">
+   
+
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1 class="name">Julieta Recoba</h1>
+        </div>
+    <nav>
+        <ul class="navmenu">
+            <li  id="bienv"><a href=#bienvenidx>Bienvenidx</a>
+            <li id="proy"><a href=#proyectos> Proyectos</a></li>
+            <li id="mi"><a href="#camino">Sobre mi</a></li>
+        </ul>
+    </nav>
+
+    </header>
+
+    <table>
+        <tr>
+            <td class="col1">
+                <h1 id="bienvenidx" class="htext">Hola! </h1>
+                <h1 class="htext" id="ju">Soy julieta,</h1>
+                <h2 class="htext"> Estudio Desarrollo web & ingenieria en computacion </h2>
+                
+           
+            <td class="col2">
+                <img  src="ilustracion-concepto-codificar_114360-939.jpg" alt="ejemplo" width="450px" >
+            </td>
+ 
+        </tr>
+        
+    </table>
+   
+    <hr>
+    <h2 id="proyectos">Proyectos</h2>
+    <table class="t2">
+        <tr class="proy1">
+            <td>
+                <p >Los proyectos en los que estuve trabajando estan enmarcados en el curso de desarrollo web de jovenes a programar.<br>
+                Mis primeros pasitos en el desarrollo web comienzan por mi primer documento Html</p>
+            </td>
+            <td>
+                <img src="mi primerhtml.png" width="350px">
+            </td>
+            
+        </tr>
+        <tr>
+            <td>
+                <p > La creacion de un Curriculum vitae fue otro de los proyectos en los que trabajamos aqui ya incluimos el trabajo con CCS.</p>
+            </td>
+            <td>
+                <img src="cv1.png" width="350px">
+                
+                
+            </td>
+
+            <td>
+                <img id="img2" src="cv2.jpg" width="350px">
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <p >Otro de los proyectos fue hacer un formulario. Aprender a hacer documentos a los que el usuario pueda ingresar informacion fue una experiencia enriquecedora.</p>
+            </td>
+            <td>
+                <img src="formularioderegistro.png" width="400px">
+            </td>
+            <tr>
+                
+            </tr>
+    </table>
+        
+
+    <hr>
+    
+    <h2 id="camino">Sobre mi</h2>
+    <div class="cuerpo">
+        <p class="yo">
+            Mi nombre es julieta, naci en montevideo, uruguay, dos idiomas fluidamente , español mi lengua materna e ingles .<br>
+            Estudie 4 años en la universidad de bellas artes luego en 2023
+            me incursione en el mundo de la teconologia e ingenieria. Creo que las bellas artes y la ingenieria van de la
+            mano.El desarollo sobre la creatividad hecho en esos años en bellas artes me sirve como insumo por ejemplo para encontrar soluciones creativas a problemas.<br>
+            
+            Soy una persona responsable y comprometida, siempre estoy aprendiendo. Me apasiona la programacion, sobretodo la parte font end. Manejo los lenguajes: CSS, HTML Y JAVASCRIPT.
+            Soy capaz de tomar decisiones y  buscar soluciones creativas a  los problemas emergentes.
+            
+        </p>
+            <img src="ilustracion manos.jpg" width="400px">
+    </div>
+    
+    
+    <hr>
+    <div>
+        <a href="formcontacto.html"><h2 id="">Contacto</h2></a>
+        <a href="linkedin">linkedin</a>
+        <a href="email">Email</a>
+        <a href="CV">Cuirriculum Vitae</a>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("abajo",window.scrollY>0)
+    })</script>
+
+</body>
+</html>
